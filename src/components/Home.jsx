@@ -1,5 +1,7 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import img1 from '../assets/images/avion.jpg'
+
 
 const Home = () => {
   return (
@@ -14,13 +16,13 @@ const Home = () => {
     <div className='pagoseguro'>
         <p>Tarjeta de credito, tarjeta de debito y pago electronico</p>
     </div>
-    <div className='servicios'>
-
-    </div>
-
+    <h1 style={{ textAlign: "center" }}>Servicios Disponibles</h1>
+    <div className="servicios">
     
+      </div>
     </>
-  )
+  );
+    
 }
 
 export default Home
